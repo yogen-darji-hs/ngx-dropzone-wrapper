@@ -85,6 +85,6 @@ export class DropzoneComponent implements OnInit {
   }
 
   public getPlaceholder(): string {
-    return 'url(' + encodeURI(this.placeholder) + ')';
+    return 'url('this.placeholder + ')';
   }
 }
